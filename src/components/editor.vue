@@ -88,7 +88,7 @@ export default {
   },
   computed: {
     ...mapGetters('file', [FileGetters.GET_CONTENT]),
-    ...mapGetters('calendar', [CalendarGetters.GET_CURRENT_DATE]),
+    ...mapGetters('calendar', [CalendarGetters.GET_CURRENT_DATE])
   },
   mounted() {
     this.editor = new Editor({
